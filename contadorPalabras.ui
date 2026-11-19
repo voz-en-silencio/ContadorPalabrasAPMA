@@ -17,8 +17,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>-30</x>
+      <y>20</y>
       <width>801</width>
       <height>501</height>
      </rect>
@@ -43,7 +43,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Contador de palabras</string>
@@ -69,7 +70,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Contador de palabras</string>
@@ -86,6 +88,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
@@ -103,6 +106,19 @@ border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Contar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>50</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PROYECTO COLABORADOR DE MATT Y DE LUISMI</string>
     </property>
    </widget>
   </widget>
